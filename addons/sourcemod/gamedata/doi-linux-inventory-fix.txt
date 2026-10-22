@@ -1,0 +1,61 @@
+"Games"
+{
+ "doi"
+ {
+  "Signatures"
+  {
+   "BattleyeState"
+   {
+    "library" "../../bin/engine"
+    "linux" "@g_BattleyeServer"
+   }
+   "BattleyeIsEnabled"
+   {
+    "library" "../../bin/engine"
+    "linux" "@_ZNK15CBattleyeServer9IsEnabledEv"
+   }
+   "FindMessage"
+   {
+    "library" "../../bin/engine"
+    "linux" "@_ZN8CNetChan11FindMessageEi"
+   }
+   "AntiGetType"
+   {
+    "library" "../../bin/engine"
+    "linux" "@_ZNK19CLC_AntiCheatPacket7GetTypeEv"
+   }
+   "InventoryGetType"
+   {
+    "library" "../../bin/engine"
+    "linux" "@_ZNK24CLC_SteamInventoryUpdate7GetTypeEv"
+   }
+   "AntiVtable"
+   {
+    "library" "../../bin/engine"
+    "linux" "@_ZTV19CLC_AntiCheatPacket"
+   }
+   "InventoryVtable"
+   {
+    "library" "../../bin/engine"
+    "linux" "@_ZTV24CLC_SteamInventoryUpdate"
+   }
+   "EngineReceive"
+   {
+    "library" "../../bin/engine"
+    "linux" "@_ZN11CGameClient27ProcessSteamInventoryUpdateEP24CLC_SteamInventoryUpdate"
+   }
+   "Manager"
+   {
+    "library" "server"
+    "linux" "@g_ServerInventoryManager"
+   }
+   "OnResult"
+   {
+    "library" "server"
+    "linux" "@_ZN23CServerInventoryManager22OnSteamInventoryResultEP27SteamInventoryResultReady_t"
+   }
+ 
+   }
+
+   }
+}
