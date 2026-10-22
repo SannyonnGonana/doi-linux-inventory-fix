@@ -136,9 +136,15 @@ sv_battleye
 
 ### Step 1: Download the files
 
-On the GitHub repository page, choose **Code → Download ZIP**, extract the archive, and locate the directory containing `addons/`. You can also clone the repository with Git.
+Download `doi-linux-inventory-fix-v0.1.2-linux.zip` from [GitHub Releases](https://github.com/SannyonnGonana/doi-linux-inventory-fix/releases/latest) for installation. This package contains only the required `.smx`, matching gamedata, and `LICENSE`. Extract it to get the `addons/` directory, then follow the steps below. Keep files from the same release together.
 
-If the project provides a Release, you can use a complete package containing the `.smx` and its matching gamedata. Keep files from the same release together.
+Download `SHA256SUMS.txt` from the same Release, then verify the package in a Linux shell:
+
+```bash
+sha256sum -c SHA256SUMS.txt
+```
+
+To review or compile the source, clone the repository or use **Code → Download ZIP**. The automatically generated `Source code (zip)` and `Source code (tar.gz)` downloads on the Release page are complete source snapshots. For a regular installation, choose the plugin package named above.
 
 ### Step 2: Back up an existing installation
 

@@ -136,9 +136,15 @@ sv_battleye
 
 ### 第一步：获取文件
 
-在 GitHub 仓库页面选择 **Code → Download ZIP**，解压后定位包含 `addons/` 的目录。也可以使用 Git 克隆仓库。
+推荐从 [GitHub Releases](https://github.com/SannyonnGonana/doi-linux-inventory-fix/releases/latest) 下载 `doi-linux-inventory-fix-v0.1.2-linux.zip`。该安装包只包含运行必需的 `.smx`、对应 gamedata 和 `LICENSE`；解压后直接得到 `addons/`，便于按下述步骤部署。请保持同一发布版本的文件配套使用。
 
-如果项目发布了 Release，可使用其中包含 `.smx` 与对应 gamedata 的完整安装包。请保持同一发布版本的文件配套使用。
+下载同一 Release 中的 `SHA256SUMS.txt` 后，可在 Linux Shell 中校验安装包：
+
+```bash
+sha256sum -c SHA256SUMS.txt
+```
+
+需要审查源码或自行编译时，可以克隆仓库，或使用 **Code → Download ZIP**。Release 页面自动提供的 `Source code (zip)` 和 `Source code (tar.gz)` 是完整源码快照，普通安装应选择上面的插件安装包。
 
 ### 第二步：备份已有版本
 
